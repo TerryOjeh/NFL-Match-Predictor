@@ -13,4 +13,7 @@ Backend Implementation:
   3. Cleaned the combined dataset by transforming the Date object into a datetime64
   4. Created predictors for machine learning, Win_code(if the home team won or lost), Home_code and Away_code with each team having a unique respective number
   5. Split the dataset into features and target, the 22-23 Results for training and 23-24 testing
-  6. Use RandomForest and estimators to determine the number of decision trees to use, the higher the number; longer algorithm runs potentially more accurate
+  6. From scikit-learn, use RandomForestClassifier and estimators to determine the number of decision trees to use, the higher the number; longer algorithm runs potentially more accurate
+  7. From scikit-learn, use accuracy_score to determine accuracy of prediction model. After initial model, accuracy was at 65%
+  8. From scikit-learn, use precision_score to determine precision of prediction. When a win was predicted, it was accurate 68% of the time
+  9. From prediction model, predict the wins of the rest of the 24-25 NFL season from 2024-12-21 while using the stats that occured from the start of the 2024 NFL season till the 2024-12-20.
