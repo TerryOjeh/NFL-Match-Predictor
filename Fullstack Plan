@@ -1,3 +1,66 @@
+🧩 Project Architecture Overview
+🖥️ Frontend: React
+Main views/components to build:
+
+Game Selection View
+         List of upcoming games pulled from the sports API
+         Allow users to click and choose a winner (home or away)
+Prediction Submission
+         Button to submit prediction (e.g., Submit Prediction)
+         Optional: Let users add reasoning/comments
+Historical Results
+         Table or card view of past games with:
+                  Team names
+                  Final score
+                  Prediction result (win/loss)
+                  Accuracy metric if the user had predicted
+Leaderboard
+         Ranks users based on prediction accuracy
+         Use cards or a table sorted by highest score/accuracy
+Social Features
+         User handles, recent predictions, reactions (like/thumbs up)
+         You can mock this with a small comment/reply feature
+
+⚙️ Backend: Flask or Express.js
+Build endpoints like:
+GET  /api/games/upcoming         # returns upcoming games
+POST /api/predictions            # submits a user's prediction
+GET  /api/results/historical     # returns past game results
+GET  /api/leaderboard            # returns leaderboard stats
+Data flow:
+Store predictions and game outcomes in MongoDB, PostgreSQL, or SQLite
+Fetch updated game results from a sports API and store for future analysis
+
+📡 API Integration
+Free sports APIs to consider:
+         TheSportsDB
+         API-Fotball (RapidAPI)
+         Sportsdata.io (NFL specific)
+
+Example with fetch (frontend):
+fetch('https://api.sportsdata.io/v3/nfl/scores/json/Schedules/2024REG', {
+  headers: { 'Ocp-Apim-Subscription-Key': 'YOUR_API_KEY' }
+})
+  .then(res => res.json())
+  .then(data => console.log(data));
+
+🧠 Machine Learning Integration
+You can expose your prediction model via a Flask API endpoint like:\@app.route('/predict', methods=['POST'])
+def predict():
+    data = request.get_json()
+    features = extract_features(data)
+    prediction = model.predict([features])
+    return jsonify({'prediction': int(prediction[0])})
+
+| Layer      | Tool                                            |
+| ---------- | ----------------------------------------------- |
+| Frontend   | React + Tailwind CSS or MUI                     |
+| Backend    | Flask or Express.js                             |
+| ML Model   | Python + Scikit-learn                           |
+| Database   | SQLite (MVP) or PostgreSQL                      |
+| Auth (MVP) | Firebase Auth or simple JWT                     |
+| Hosting    | Vercel (Frontend) + Render or Railway (Backend) |
+
          [ USER ]
             ↓
    React Frontend (UI)
