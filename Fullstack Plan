@@ -1,0 +1,38 @@
+         [ USER ]
+            ↓
+   React Frontend (UI)
+            ↓
+   Backend API (Flask or Express.js)
+            ↓
+    ML Model (in Python)
+            ↓
+     Predict & Save Results
+            ↓
+     Database (e.g. SQLite)
+
+📦 Step-by-Step Breakdown
+1. ✅ Prediction Model
+  It takes in game stats and returns Win/Loss
+  It's in Python with scikit-learn
+  Right now, it's local and not connected to the web
+2. 🔓 Expose the Model as an API (Flask)
+  Wrap the model in a Flask server
+  Becomes a live endpoint like POST/predict
+3. 🧠 Connect the Backend to Frontend
+  React app lets a user pick a game
+  Triggers a request to the backend
+4. 💾 Store Data in a Database
+  When a user makes a prediction:
+    Save it in the database (e.g., MongoDB, SQLite, PostgreSQL)
+    Later update with the actual result once the game is over
+  Tables you'd need:
+    users — name, ID, total score
+    games — date, teams, actual result
+    predictions — user ID, game ID, prediction, correct?
+5. 🧑‍💻 Build the Frontend with React
+Pages:
+  Home: List of upcoming games
+  Prediction Page: Select winner → Submit
+  Results Page: Shows past games and whether your prediction was right
+  Leaderboard: Based on how many predictions you got right
+
