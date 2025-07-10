@@ -1,0 +1,11 @@
+# Ignore virtual environment
+ml-api/.venv/
+.venv/
+
+# Ignore compiled Python files
+ml-api/__pycache__/
+*.pyc
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
