@@ -1,4 +1,4 @@
-Week,Day,Date,Time,Winner/tie,Unnamed: 5,Loser/tie,Unnamed: 7,PtsW,PtsL,YdsW,TOW,YdsL,TOL
+Week,Day,Date,Time,Winner/tie,Unnamed: 5,Loser/tie,Unnamed: 7,Pts,Pts.1,YdsW,TOW,YdsL,TOL
 1,Thu,2024-09-05,8:20PM,Kansas City Chiefs,,Baltimore Ravens,boxscore,27.0,20.0,353.0,1.0,452.0,1.0
 1,Fri,2024-09-06,8:15PM,Philadelphia Eagles,,Green Bay Packers,boxscore,34.0,29.0,410.0,3.0,414.0,1.0
 1,Sun,2024-09-08,1:00PM,Pittsburgh Steelers,@,Atlanta Falcons,boxscore,18.0,10.0,270.0,0.0,226.0,3.0
@@ -224,50 +224,64 @@ Week,Day,Date,Time,Winner/tie,Unnamed: 5,Loser/tie,Unnamed: 7,PtsW,PtsL,YdsW,TOW
 15,Mon,2024-12-16,8:00PM,Minnesota Vikings,,Chicago Bears,boxscore,30.0,12.0,329.0,1.0,284.0,1.0
 15,Mon,2024-12-16,8:30PM,Atlanta Falcons,@,Las Vegas Raiders,boxscore,15.0,9.0,261.0,1.0,249.0,3.0
 16,Thu,2024-12-19,8:15PM,Los Angeles Chargers,,Denver Broncos,boxscore,34.0,27.0,380.0,1.0,355.0,0.0
-16,Sat,2024-12-21,1:00PM,Houston Texans,@,Kansas City Chiefs,preview,,,,,,
-16,Sat,2024-12-21,4:30PM,Pittsburgh Steelers,@,Baltimore Ravens,preview,,,,,,
-16,Sun,2024-12-22,1:00PM,Philadelphia Eagles,@,Washington Commanders,preview,,,,,,
-16,Sun,2024-12-22,1:00PM,Tennessee Titans,@,Indianapolis Colts,preview,,,,,,
-16,Sun,2024-12-22,1:00PM,New York Giants,@,Atlanta Falcons,preview,,,,,,
-16,Sun,2024-12-22,1:00PM,Cleveland Browns,@,Cincinnati Bengals,preview,,,,,,
-16,Sun,2024-12-22,1:00PM,Los Angeles Rams,@,New York Jets,preview,,,,,,
-16,Sun,2024-12-22,1:00PM,Arizona Cardinals,@,Carolina Panthers,preview,,,,,,
-16,Sun,2024-12-22,1:00PM,Detroit Lions,@,Chicago Bears,preview,,,,,,
-16,Sun,2024-12-22,4:05PM,Minnesota Vikings,@,Seattle Seahawks,preview,,,,,,
-16,Sun,2024-12-22,4:25PM,Jacksonville Jaguars,@,Las Vegas Raiders,preview,,,,,,
-16,Sun,2024-12-22,4:25PM,New England Patriots,@,Buffalo Bills,preview,,,,,,
-16,Sun,2024-12-22,4:25PM,San Francisco 49ers,@,Miami Dolphins,preview,,,,,,
-16,Sun,2024-12-22,8:20PM,Tampa Bay Buccaneers,@,Dallas Cowboys,preview,,,,,,
-16,Mon,2024-12-23,8:15PM,New Orleans Saints,@,Green Bay Packers,preview,,,,,,
-17,Wed,2024-12-25,1:00PM,Kansas City Chiefs,@,Pittsburgh Steelers,preview,,,,,,
-17,Wed,2024-12-25,4:30PM,Baltimore Ravens,@,Houston Texans,preview,,,,,,
-17,Thu,2024-12-26,8:15PM,Seattle Seahawks,@,Chicago Bears,preview,,,,,,
-17,Sat,2024-12-28,1:00PM,Los Angeles Chargers,@,New England Patriots,preview,,,,,,
-17,Sat,2024-12-28,4:30PM,Denver Broncos,@,Cincinnati Bengals,preview,,,,,,
-17,Sat,2024-12-28,8:15PM,Arizona Cardinals,@,Los Angeles Rams,preview,,,,,,
-17,Sun,2024-12-29,1:00PM,Tennessee Titans,@,Jacksonville Jaguars,preview,,,,,,
-17,Sun,2024-12-29,1:00PM,Green Bay Packers,@,Minnesota Vikings,preview,,,,,,
-17,Sun,2024-12-29,1:00PM,New York Jets,@,Buffalo Bills,preview,,,,,,
-17,Sun,2024-12-29,1:00PM,Indianapolis Colts,@,New York Giants,preview,,,,,,
-17,Sun,2024-12-29,1:00PM,Carolina Panthers,@,Tampa Bay Buccaneers,preview,,,,,,
-17,Sun,2024-12-29,1:00PM,Las Vegas Raiders,@,New Orleans Saints,preview,,,,,,
-17,Sun,2024-12-29,4:05PM,Miami Dolphins,@,Cleveland Browns,preview,,,,,,
-17,Sun,2024-12-29,4:25PM,Dallas Cowboys,@,Philadelphia Eagles,preview,,,,,,
-17,Sun,2024-12-29,8:20PM,Atlanta Falcons,@,Washington Commanders,preview,,,,,,
-17,Mon,2024-12-30,8:15PM,Detroit Lions,@,San Francisco 49ers,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,San Francisco 49ers,@,Arizona Cardinals,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Seattle Seahawks,@,Los Angeles Rams,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Los Angeles Chargers,@,Las Vegas Raiders,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Miami Dolphins,@,New York Jets,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Washington Commanders,@,Dallas Cowboys,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,New York Giants,@,Philadelphia Eagles,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,New Orleans Saints,@,Tampa Bay Buccaneers,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Minnesota Vikings,@,Detroit Lions,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Kansas City Chiefs,@,Denver Broncos,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Jacksonville Jaguars,@,Indianapolis Colts,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Houston Texans,@,Tennessee Titans,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Cleveland Browns,@,Baltimore Ravens,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Cincinnati Bengals,@,Pittsburgh Steelers,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Chicago Bears,@,Green Bay Packers,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Carolina Panthers,@,Atlanta Falcons,preview,,,,,,
-18,Sun,2025-01-05,1:00PM,Buffalo Bills,@,New England Patriots,preview,,,,,,
+16,Sat,2024-12-21,1:00PM,Kansas City Chiefs,,Houston Texans,boxscore,27.0,19.0,375.0,0.0,311.0,2.0
+16,Sat,2024-12-21,4:30PM,Baltimore Ravens,,Pittsburgh Steelers,boxscore,34.0,17.0,418.0,1.0,315.0,2.0
+16,Sun,2024-12-22,1:00PM,Atlanta Falcons,,New York Giants,boxscore,34.0,7.0,329.0,1.0,234.0,3.0
+16,Sun,2024-12-22,1:00PM,Carolina Panthers,,Arizona Cardinals,boxscore,36.0,30.0,392.0,0.0,382.0,2.0
+16,Sun,2024-12-22,1:00PM,Detroit Lions,@,Chicago Bears,boxscore,34.0,17.0,475.0,0.0,382.0,2.0
+16,Sun,2024-12-22,1:00PM,Cincinnati Bengals,,Cleveland Browns,boxscore,24.0,6.0,326.0,1.0,273.0,3.0
+16,Sun,2024-12-22,1:00PM,Indianapolis Colts,,Tennessee Titans,boxscore,38.0,30.0,458.0,1.0,307.0,3.0
+16,Sun,2024-12-22,1:00PM,Los Angeles Rams,@,New York Jets,boxscore,19.0,9.0,242.0,1.0,321.0,2.0
+16,Sun,2024-12-22,1:00PM,Washington Commanders,,Philadelphia Eagles,boxscore,36.0,33.0,368.0,5.0,338.0,2.0
+16,Sun,2024-12-22,4:05PM,Minnesota Vikings,@,Seattle Seahawks,boxscore,27.0,24.0,298.0,0.0,361.0,2.0
+16,Sun,2024-12-22,4:25PM,Buffalo Bills,,New England Patriots,boxscore,24.0,21.0,324.0,1.0,379.0,3.0
+16,Sun,2024-12-22,4:25PM,Las Vegas Raiders,,Jacksonville Jaguars,boxscore,19.0,14.0,314.0,0.0,308.0,2.0
+16,Sun,2024-12-22,4:25PM,Miami Dolphins,,San Francisco 49ers,boxscore,29.0,17.0,381.0,0.0,374.0,1.0
+16,Sun,2024-12-22,8:20PM,Dallas Cowboys,,Tampa Bay Buccaneers,boxscore,26.0,24.0,317.0,0.0,410.0,2.0
+16,Mon,2024-12-23,8:15PM,Green Bay Packers,,New Orleans Saints,boxscore,34.0,0.0,404.0,0.0,196.0,2.0
+17,Wed,2024-12-25,1:00PM,Kansas City Chiefs,@,Pittsburgh Steelers,boxscore,29.0,10.0,389.0,0.0,364.0,2.0
+17,Wed,2024-12-25,4:30PM,Baltimore Ravens,@,Houston Texans,boxscore,31.0,2.0,432.0,0.0,211.0,1.0
+17,Thu,2024-12-26,8:15PM,Seattle Seahawks,@,Chicago Bears,boxscore,6.0,3.0,265.0,1.0,179.0,1.0
+17,Sat,2024-12-28,1:00PM,Los Angeles Chargers,@,New England Patriots,boxscore,40.0,7.0,428.0,0.0,181.0,1.0
+17,Sat,2024-12-28,4:30PM,Cincinnati Bengals,,Denver Broncos,boxscore,30.0,24.0,499.0,1.0,329.0,1.0
+17,Sat,2024-12-28,8:10PM,Los Angeles Rams,,Arizona Cardinals,boxscore,13.0,9.0,257.0,0.0,396.0,2.0
+17,Sun,2024-12-29,1:00PM,Buffalo Bills,,New York Jets,boxscore,40.0,14.0,348.0,0.0,281.0,3.0
+17,Sun,2024-12-29,1:00PM,Tampa Bay Buccaneers,,Carolina Panthers,boxscore,48.0,14.0,551.0,0.0,204.0,0.0
+17,Sun,2024-12-29,1:00PM,New York Giants,,Indianapolis Colts,boxscore,45.0,33.0,389.0,0.0,446.0,3.0
+17,Sun,2024-12-29,1:00PM,Philadelphia Eagles,,Dallas Cowboys,boxscore,41.0,7.0,376.0,0.0,268.0,4.0
+17,Sun,2024-12-29,1:00PM,Jacksonville Jaguars,,Tennessee Titans,boxscore,20.0,13.0,295.0,0.0,337.0,1.0
+17,Sun,2024-12-29,1:00PM,Las Vegas Raiders,@,New Orleans Saints,boxscore,25.0,10.0,388.0,0.0,269.0,2.0
+17,Sun,2024-12-29,4:05PM,Miami Dolphins,@,Cleveland Browns,boxscore,20.0,3.0,280.0,0.0,276.0,2.0
+17,Sun,2024-12-29,4:25PM,Minnesota Vikings,,Green Bay Packers,boxscore,27.0,25.0,441.0,1.0,271.0,1.0
+17,Sun,2024-12-29,8:20PM,Washington Commanders,,Atlanta Falcons,boxscore,30.0,24.0,412.0,1.0,337.0,1.0
+17,Mon,2024-12-30,8:15PM,Detroit Lions,@,San Francisco 49ers,boxscore,40.0,34.0,439.0,0.0,475.0,2.0
+18,Sat,2025-01-04,4:30PM,Baltimore Ravens,,Cleveland Browns,boxscore,35.0,10.0,437.0,0.0,230.0,2.0
+18,Sat,2025-01-04,8:00PM,Cincinnati Bengals,@,Pittsburgh Steelers,boxscore,19.0,17.0,314.0,2.0,193.0,1.0
+18,Sun,2025-01-05,1:00PM,Carolina Panthers,@,Atlanta Falcons,boxscore,44.0,38.0,425.0,0.0,537.0,1.0
+18,Sun,2025-01-05,1:00PM,New England Patriots,,Buffalo Bills,boxscore,23.0,16.0,309.0,1.0,259.0,0.0
+18,Sun,2025-01-05,1:00PM,Chicago Bears,@,Green Bay Packers,boxscore,24.0,22.0,224.0,2.0,367.0,2.0
+18,Sun,2025-01-05,1:00PM,Indianapolis Colts,,Jacksonville Jaguars,boxscore,26.0,23.0,429.0,0.0,319.0,1.0
+18,Sun,2025-01-05,1:00PM,Washington Commanders,@,Dallas Cowboys,boxscore,23.0,19.0,269.0,1.0,378.0,0.0
+18,Sun,2025-01-05,1:00PM,Houston Texans,@,Tennessee Titans,boxscore,23.0,14.0,374.0,1.0,314.0,1.0
+18,Sun,2025-01-05,1:00PM,Tampa Bay Buccaneers,,New Orleans Saints,boxscore,27.0,19.0,395.0,1.0,292.0,0.0
+18,Sun,2025-01-05,1:00PM,Philadelphia Eagles,,New York Giants,boxscore,20.0,13.0,303.0,0.0,238.0,1.0
+18,Sun,2025-01-05,4:25PM,Arizona Cardinals,,San Francisco 49ers,boxscore,47.0,24.0,393.0,0.0,436.0,3.0
+18,Sun,2025-01-05,4:25PM,Denver Broncos,,Kansas City Chiefs,boxscore,38.0,0.0,479.0,0.0,98.0,0.0
+18,Sun,2025-01-05,4:25PM,New York Jets,,Miami Dolphins,boxscore,32.0,20.0,375.0,1.0,334.0,4.0
+18,Sun,2025-01-05,4:25PM,Los Angeles Chargers,@,Las Vegas Raiders,boxscore,34.0,20.0,473.0,0.0,264.0,1.0
+18,Sun,2025-01-05,4:25PM,Seattle Seahawks,@,Los Angeles Rams,boxscore,30.0,25.0,336.0,0.0,403.0,1.0
+18,Sun,2025-01-05,8:20PM,Detroit Lions,,Minnesota Vikings,boxscore,31.0,9.0,394.0,2.0,262.0,0.0
+,,Playoffs,,,,,,,,,,,
+WildCard,Sat,2025-01-11,4:30PM,Houston Texans,,Los Angeles Chargers,boxscore,32.0,12.0,429.0,3.0,261.0,4.0
+WildCard,Sat,2025-01-11,8:00PM,Baltimore Ravens,,Pittsburgh Steelers,boxscore,28.0,14.0,464.0,0.0,280.0,0.0
+WildCard,Sun,2025-01-12,1:00PM,Buffalo Bills,,Denver Broncos,boxscore,31.0,7.0,471.0,0.0,224.0,0.0
+WildCard,Sun,2025-01-12,4:30PM,Philadelphia Eagles,,Green Bay Packers,boxscore,22.0,10.0,290.0,0.0,302.0,4.0
+WildCard,Sun,2025-01-12,8:00PM,Washington Commanders,@,Tampa Bay Buccaneers,boxscore,23.0,20.0,350.0,0.0,284.0,1.0
+WildCard,Mon,2025-01-13,8:00PM,Los Angeles Rams,,Minnesota Vikings,boxscore,27.0,9.0,292.0,0.0,269.0,2.0
+Division,Sat,2025-01-18,4:30PM,Kansas City Chiefs,,Houston Texans,boxscore,23.0,14.0,212.0,0.0,336.0,0.0
+Division,Sat,2025-01-18,8:00PM,Washington Commanders,@,Detroit Lions,boxscore,45.0,31.0,481.0,0.0,521.0,5.0
+Division,Sun,2025-01-19,3:00PM,Philadelphia Eagles,,Los Angeles Rams,boxscore,28.0,22.0,350.0,0.0,402.0,2.0
+Division,Sun,2025-01-19,6:30PM,Buffalo Bills,,Baltimore Ravens,boxscore,27.0,25.0,273.0,0.0,416.0,3.0
+ConfChamp,Sun,2025-01-26,3:00PM,Philadelphia Eagles,,Washington Commanders,boxscore,55.0,23.0,459.0,0.0,350.0,4.0
+ConfChamp,Sun,2025-01-26,6:30PM,Kansas City Chiefs,,Buffalo Bills,boxscore,32.0,29.0,368.0,1.0,374.0,0.0
+SuperBowl,Sun,2025-02-09,6:30PM,Philadelphia Eagles,N,Kansas City Chiefs,boxscore,40.0,22.0,345.0,1.0,275.0,3.0
